@@ -19,21 +19,17 @@ If the task has not already been planned, create a plan for it.
 
 ### 3. Implement
 
-Work through the plan step by step.
+**For backend code**: use red/green/refactor, one test at a time in a tracer-bullet style.
 
-For **backend code**, use red-green-refactor, ONE test at a time in tracer bullet style:
-
-1. Write one test targeting a thin vertical slice of behavior:
-   - one API endpoint returning one shape of data, or
-   - one service method handling one case
+1. Write a single failing test for the smallest vertical slice of behavior
 2. Run the test — confirm it fails (red)
-3. Write the minimum production code to make it pass (green)
-4. Move to the next test
-5. Refactor if needed, keeping tests green
+3. Write the minimum code to make it pass (green)
+4. Repeat from step 1 for the next slice of behavior
+5. Refactor if needed while keeping tests green
 
-Do not write multiple tests upfront. Do not implement code without a failing test first.
+Each test should target one thin vertical slice through the system. Do not write all tests upfront — write one, make it pass, then move to the next.
 
-This does **not** apply to frontend code.
+**For frontend code**: implement directly without TDD.
 
 ### 4. Validate
 
