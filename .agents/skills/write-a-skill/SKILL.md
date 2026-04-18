@@ -1,3 +1,8 @@
+---
+name: write-a-skill
+description: Create new agent skills with clear instructions, templates, and reference materials. Use when user wants to write a skill, create a custom agent capability, or extend agent functionality.
+---
+
 # Writing Skills
 
 ## Process

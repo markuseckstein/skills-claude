@@ -1,3 +1,10 @@
+---
+name: zod-to-valibot
+description: Migrate Zod validation schemas to Valibot, handling method chaining to functional pipes, parse calls, and API differences. Use when refactoring from Zod to Valibot, migrating validation schemas, or updating validation libraries.
+user-invocable: true
+disable-model-invocation: false
+---
+
 # Zod to Valibot Migration
 
 ## Key differences

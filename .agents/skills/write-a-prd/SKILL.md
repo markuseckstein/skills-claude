@@ -1,4 +1,15 @@
-This skill will be invoked when the user wants to create a PRD. You should go through the steps below. You may skip steps if you don't consider them necessary.
+---
+name: write-a-prd
+description: Interview users about requirements and create comprehensive Product Requirements Documents with problem statements, solutions, user stories, and implementation decisions. Use when user wants to write a PRD, create product requirements, or needs help specifying a feature.
+---
+
+# Writing PRDs
+
+Create a comprehensive Product Requirements Document through structured interviews and exploration.
+
+## Process
+
+You should go through the steps below. You may skip steps if you don't consider them necessary.
 
 1. Ask the user for a long, detailed description of the problem they want to solve and any potential ideas for solutions.
 
